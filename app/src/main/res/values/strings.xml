@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Diretor do Time</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="monday">SEG</string>
+    <string name="tuesday">TER</string>
+    <string name="wednesday">QUA</string>
+    <string name="thursday">QUI</string>
+    <string name="friday">SEX</string>
+    <string name="saturday">SAB</string>
+    <string name="sunday">DOM</string>
+
+</resources>

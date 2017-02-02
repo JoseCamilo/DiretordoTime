@@ -1,0 +1,248 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!--TITULO-->
+
+            <TextView
+                android:id="@+id/tvevento"
+                android:text="Titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/etevento"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_box"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:textSize="25sp"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <!--DIA INICIO-->
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:id="@+id/tvdiainicio"
+                    android:text="De"/>
+
+
+                <!--DATA-->
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btndiainicio"
+                    android:text="  /  /   "
+                    android:textSize="15sp"
+                    android:background="@drawable/button_states"
+                    android:layout_marginBottom="10dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnhrinicio"
+                    android:text="00:00"
+                    android:textSize="15sp"
+                    android:background="@drawable/button_states"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:elevation="0dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--DIA FIM-->
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:id="@+id/tvdiafim"
+                    android:text="Até"/>
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btndiafim"
+                    android:text="  /  /   "
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_states"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnhrfim"
+                    android:text="00:00"
+                    android:textSize="15sp"
+                    android:background="@drawable/button_states"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+
+            <!--DESCRIÇÃO-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/tvdesc"
+                android:text="Descrição"
+                android:paddingBottom="5dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/etdesc"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_box"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:textSize="25sp"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+            <!--LOCAL-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"
+                android:id="@+id/tvlocal"
+                android:text="Local"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/etlocal"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_box"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:textSize="25sp"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+            <!--COR-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:id="@+id/tvcor"
+                    android:text="Cor"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/spinercor"
+                    android:textSize="25sp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ivcor"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp">
+
+                <!--FINANCEIRO-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:id="@+id/tvfinanceiro"
+                    android:text="Financeiro" />
+
+                <ToggleButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/toggleFin"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_states"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <!--BLOQUEADO-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ocultar evento?"
+                    android:textSize="20sp"/>
+
+                <CheckBox
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/jogobloqueado" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="15sp"
+                android:id="@+id/btnsalvarjogo"
+                android:text="Salvar"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_states"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

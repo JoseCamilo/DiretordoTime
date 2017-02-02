@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Gráficos">
+            <menu>
+                <item
+                    android:id="@+id/nav_grafico"
+                    android:icon="@drawable/ic_dashboard_black_24dp"
+                    android:title="Jogadores" />
+                <item
+                    android:id="@+id/nav2_grafico"
+                    android:icon="@drawable/ic_dashboard_black_24dp"
+                    android:title="Eventos" />
+                <item
+                    android:id="@+id/nav3_grafico"
+                    android:icon="@drawable/ic_dashboard_black_24dp"
+                    android:title="Arrecadações" />
+            </menu>
+        </item>
+
+        <item android:title="Jogos">
+            <menu>
+                <item
+                    android:id="@+id/nav2_jogos"
+                    android:icon="@drawable/ic_games_black_24dp"
+                    android:title="Incluir" />
+                <item
+                    android:id="@+id/nav3_jogos"
+                    android:icon="@drawable/ic_games_black_24dp"
+                    android:title="Presença" />
+                <item
+                    android:id="@+id/nav_jogos"
+                    android:icon="@drawable/ic_games_black_24dp"
+                    android:title="Calendário" />
+
+            </menu>
+        </item>
+
+        <item android:title="Jogadores">
+            <menu>
+                <item
+                    android:id="@+id/nav_jogadores"
+                    android:icon="@drawable/ic_supervisor_account_black_24dp"
+                    android:title="Pesquisar" />
+                <item
+                    android:id="@+id/nav2_jogadores"
+                    android:icon="@drawable/ic_supervisor_account_black_24dp"
+                    android:title="Incluir" />
+            </menu>
+        </item>
+
+        <item android:title="Pagamentos">
+            <menu>
+                <item
+                    android:id="@+id/nav_pagamentos"
+                    android:icon="@drawable/ic_monetization_on_black_24dp"
+                    android:title="Arrecadação" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Sobre">
+        <menu>
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sobre o App" />
+        </menu>
+    </item>
+
+</menu>

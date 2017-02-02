@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E0E0E0</color>
+    <color name="colorPrimaryDark">#E0E0E0</color>
+    <color name="colorAccent">#A9A9A9</color>
+
+    <color name="texto_escuro">#000000</color>
+    <color name="texto_claro">#A9A9A9</color>
+    <color name="item_selection">#E0E0E0</color>
+    <color name="texto_branco">#FFFFFF</color>
+
+    <color name="table_text">#484848</color>
+    <color name="table_text_light">#A6A6A6</color>
+    <color name="edit_text_background_start">#EFF6FF</color>
+    <color name="edit_text_background_end">#FBFDFF</color>
+    <color name="text_shadow">#000000</color>
+    <color name="text">#FCFCFC</color>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Configurações do Time">
+
+        <EditTextPreference
+            android:key="nome_time_preference"
+            android:title="Nome do Time"
+            android:summary="Escolha o nome do time que aparecerá no menu"
+            android:dialogTitle="Nome do Time"/>
+
+        <EditTextPreference
+            android:key="desc_time_preference"
+            android:title="Descrição do Time"
+            android:summary="Escolha uma descrição para o time que aparecerá no menu"
+            android:dialogTitle="Descrição do Time"/>
+
+        <Preference
+            android:key="foto_time_preference"
+            android:title="Emblema do Time"
+            android:summary="Escolha uma foto da galeria para o time que aparecerá no menu"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="Configurações do Aplicativo">
+
+        <yuku.ambilwarna.widget.AmbilWarnaPreference
+            android:key="cor_primaria_preferences"
+            android:defaultValue="-16777216"
+            app:supportsAlpha="true"
+            android:title="Cor Primária" />
+
+        <yuku.ambilwarna.widget.AmbilWarnaPreference
+            android:key="cor_acentuada_preferences"
+            android:defaultValue="-28672"
+            app:supportsAlpha="true"
+            android:title="Cor Secundária" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
